@@ -1,0 +1,9 @@
+post_upgrade() {
+    [[ -f /usr/share/libalpm/hooks/useutils.hook ]] && rm /usr/share/libalpm/hooks/useutils.hook
+
+    pacman -Q | grep useutils
+
+    if [[ $(echo "$?") == "0" ]]; then
+        pacman -R useutils
+    fi
+}
