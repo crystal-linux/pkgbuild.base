@@ -24,7 +24,7 @@ depends=(
   'licenses' 'pacman' 'systemd' 'systemd-sysvcompat'
 
   # Crystal specific modifications
-  'ame' 'filesystem' 'crystal-keyring' 'sl'
+  'amethyst' 'filesystem' 'crystal-keyring' 'sl'
 
   # networking, ping, etc
   'iputils' 'iproute2'
