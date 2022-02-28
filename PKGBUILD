@@ -1,7 +1,7 @@
-# Maintainer: Matt C <mdc028[at]bucknell[dot]edu>
+# Maintainer: echo -n 'bWF0dEBnZXRjcnlzdC5hbA==' | base64 --decode
 # Arch Contributor: Arch Linux Team
 # Arch Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
-# Arch Contributor: Eli Schwartz <eschwartz@archlinux.org>
+# Arch Contributor: Eli Schwartz <eschwartz[at]archlinux[dot]org>
 
 pkgname=base
 pkgver=9
