@@ -4,7 +4,7 @@
 # Arch Contributor: Eli Schwartz <eschwartz[at]archlinux[dot]org>
 
 pkgname=base
-pkgver=9
+pkgver=10
 pkgrel=1
 pkgdesc='Minimal package set to define a basic Crystal Linux installation'
 url='https://getcryst.al'
@@ -21,7 +21,7 @@ depends=(
   'gettext' 'pciutils' 'psmisc' 'shadow' 'util-linux' 'bzip2' 'gzip' 'xz'
 
   # distro (Arch) defined requirements
-  'licenses' 'pacman' 'systemd' 'systemd-sysvcompat'
+  'licenses' 'pacman' 'systemd' 'systemd-sysvcompat' 'archlinux-keyring'
 
   # Crystal specific modifications
   'amethyst' 'filesystem' 'crystal-keyring' 'sl' 'crystal-wallpapers'
