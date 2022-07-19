@@ -4,8 +4,8 @@
 # Arch Contributor: Eli Schwartz <eschwartz[at]archlinux[dot]org>
 
 pkgname=base
-pkgver=10
-pkgrel=1
+pkgver=9
+pkgrel=2
 pkgdesc='Minimal package set to define a basic Crystal Linux installation'
 url='https://getcryst.al'
 arch=('any')
